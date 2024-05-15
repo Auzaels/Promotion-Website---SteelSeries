@@ -1,0 +1,351 @@
+
+/* --- Genel Ayarlamalar ---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: auto;    
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: auto;
+    background-image: url(image/saintrowbg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* --- Header Bölümü ---*/
+header{
+    width: 100%;
+    height: 120px;
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header1{
+    width: 350px;
+    height: 120px;
+    background: #550381;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+
+#header2{
+    width: 350px;
+    height: 120px;
+    background: #550381;
+    color: white;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 21px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+
+#headerlogo{
+	position: relative;
+	right: 60px;
+}
+
+#aboutus{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
+
+#contact{
+	font-size: 20px;
+	position: relative;
+	top: 40px;
+	right: 60px;
+}
+
+#header2 p a{
+	text-decoration: none;
+	color: white;
+	font-weight: blod;
+}
+
+#header2 p a.active{
+	color: black;
+}
+
+#header2 p a:hover:not(.active){
+	color: black;
+}
+
+#navbar{
+    display: flex;
+    list-style: none;
+}
+
+#navbar li{
+    width: 120px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar li a.active{
+    color: blueviolet;
+}
+
+#navbar li a:hover:not(.active){
+    color: blueviolet;
+}
+
+/*--- Main Bölümü ---*/
+
+#saintrowsayfası{
+    width: 80%;
+    min-height: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#icerik{
+    width: 100%;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e1e1e;
+}
+
+#icerik1 h1{
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+
+#icerik1 p{
+	width: 550px;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
+
+#mousepad-img{
+	width: 800px;
+	height: 500px;
+	float: left;
+	position: relative;
+	top: 500px;
+	left: 150px;
+}
+
+#mousepad-text h1{
+	font-size: 48px;
+	color: white;
+	position: relative;
+	float: right;
+	top: 290px;
+	right: 250px;
+}
+
+#mousepad-text p{
+	width: 525px;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	float: right;
+	padding-top: 25px;
+	position: relative;
+	top: 300px;
+	right: 300px;
+}
+
+#headphone-img{
+	width: 600px;
+	height: 500px;
+	float: right;
+	position: relative;
+	top: 95px;
+	right: 300px;
+}
+
+#headphone-text h1{
+	width: 550px;
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	position: relative;
+	float: left;
+	top: 270px;
+	left: 345px;
+}
+
+#headphone-text p{
+	width: 500px;
+	font-size: 22px;
+	text-align: center;
+	float: left;
+	color: white;
+	padding-top: 25px;
+	position: relative;
+	top: 380px;
+	right: 175px;
+}
+
+/*--- Footer Bölümü ---*/
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: #282828;
+    align-items: center;
+}
+
+#footer-left{
+	width: 33.3333333333%;
+	height: 300px;
+	float: left;
+}
+
+#footer-left h1{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 55px;
+}
+
+#footer-left #text1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 105px;
+}
+
+#footer-left #text2{
+	font-size: 15px;
+    font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 135px;
+}
+
+#footer-center{
+    width: 33.3333333333%;
+	height: 300px;
+	float: left;
+}
+
+#footer-center img{
+	position: relative;
+	top: 11px;
+	left: 110px;
+}
+
+#footer-right{
+    width: 33.3333333333%;
+	height: 300px;
+	float: left;
+}
+
+#footer-right h1{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 55px;
+}
+
+#footer-right p{
+    font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 100px;
+}
+
+#footer-right ul li{
+	list-style-type: none;
+}
+
+.social-media{
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	top: 135px;
+	left: 85px;
+}
+
+#twitter a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#facebook a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#twitch a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#instagram a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#discord a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#youtube a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#tiktok a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#linkedin a:hover{
+	position: relative;
+	bottom: 10px;
+}
+
+#reddit a:hover{ position: relative; bottom: 10px; }
